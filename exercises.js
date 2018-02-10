@@ -98,6 +98,15 @@ console.log("isGreaterThan: ", isGreaterThan(7,2));
  * Console.log your result.
 */
 
+function mustBeTrue(boo){
+
+	if(boo === true)
+		return true;
+	else
+		return false;
+}
+
+console.log("mustBeTrue: ", mustBeTrue(7>5));
 
 /*
  * #5
