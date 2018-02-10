@@ -240,7 +240,15 @@ console.log("dirty30: ", dirty30(5,18,22));
  * Console.log your result.
 */ 
 
+function evenStevens(num){
 
+	if(num%2 === 0)
+		return true;
+	else
+		return false;
+}
+
+console.log("evenStevens: ", evenStevens(4));
 
 
 /*
