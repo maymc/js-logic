@@ -63,7 +63,6 @@ function login(password){
 console.log("login: ", login("test1234"));
 
 
-
 /*
  * #3
  * Function - isGreaterThan
@@ -77,7 +76,15 @@ console.log("login: ", login("test1234"));
  * Console.log your result.
 */
 
+function isGreaterThan(first, second){
 
+	if(first > second)
+		return true;
+	else
+		return false;
+}
+
+console.log("isGreaterThan: ", isGreaterThan(7,2));
 
 /*
  * #4
@@ -90,7 +97,6 @@ console.log("login: ", login("test1234"));
  * The function will return true if the value passed into the function is "true".
  * Console.log your result.
 */
-
 
 
 /*
