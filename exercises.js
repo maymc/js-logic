@@ -120,7 +120,15 @@ console.log("mustBeTrue: ", mustBeTrue(7>5));
  * Console.log your result.
 */
 
+function bigBird(word){
 
+	if(word.length === 3)
+		return "Word to Big Bird!";
+	else
+		return "Word too long";
+}
+
+console.log("bigBird: ", bigBird("sky"));
 
 /*
  * #6
