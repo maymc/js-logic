@@ -344,18 +344,24 @@ var doughnutBought = 0;
 
 function buyDoughnut(){
 
-	budget = budget - doughnutPrice;
-	doughnutBought = doughnutBought + 1;
+	if(budget >= doughnutPrice){
+		//buy a doughnut
+		budget -= doughnutPrice;
+		//increase doughnut count
+		doughnutBought += 1;
+	}
 	
 }
 
-buyDoughnut();
-console.log("budget: ", budget); //23
-console.log("doughnutBought: ", doughnutBought); //1
+var i = 1;
+while(i<3){
+	buyDoughnut();
+	console.log("budget: ", budget); //23
+	console.log("doughnutBought: ", doughnutBought); //1
 
-buyDoughnut();
-console.log("budget: ", budget); //20
-console.log("doughnutBought: ", doughnutBought); //2
+	i++;
+}
+
 
 
 /*Final Boss*/
