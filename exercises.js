@@ -514,7 +514,21 @@ console.log("West: ", west);
  * Console.log your results.
 */ 
 
+var subOftheDay = ["Teriyaki Chicken", "Spicy Italian", "Turkey", "BMT", "Black Forest Ham", "Meatball Marinara", "Veggie"];
 
+function subways(special){
+
+	for(var i=0; i<special.length; i++){
+		if(i%2 !== 0){
+			//console.log(special[i]);
+			special[i] = "Classic Tuna";
+			//console.log(special[i]);
+		}
+	}
+}
+
+subways(subOftheDay);
+console.log("subOftheDay: ", subOftheDay);
 
 
 /*
