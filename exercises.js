@@ -423,6 +423,13 @@ for (var i = 0; i<toyotaModels.length; i++){
  * "Player: 5"
 */
 
+var players = ["Player 1", "Player 2", "Player 3", "Player 4", "Player 5"];
+
+for(var i =0; i<players.length; i++){
+	console.log(players[i]);
+}
+
+
 
 /* 
  * #16
