@@ -485,6 +485,23 @@ console.log("Total: ", total);
 */ 
 
 var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Sidney Deane", "World B Free"];
+var east = [];
+var west = [];
+
+function allStars(ballers){
+
+	for(var i=0; i<ballers.length; i++){
+		if(i%2 === 0)
+			east.push(ballers[i]);
+		else
+			west.push(ballers[i]);
+	}
+}
+
+allStars(players);
+console.log("East: ", east);
+console.log("West: ", west);
+
 /*
  * #19
  * Function - subways
@@ -497,7 +514,7 @@ var players = ["Yao Ming", "BrookLin", " Jesus Shuttlesworth", "Manute Bol", "Si
  * Console.log your results.
 */ 
 
-  var subOftheDay = ["Teriyaki Chicken", "Spicy Italian", "Turkey", "BMT", "Black Forest Ham", "Meatball Marinara", "Veggie"];
+
 
 
 /*
